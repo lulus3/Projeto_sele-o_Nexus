@@ -1,0 +1,55 @@
+.buttonConteiner{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    transition: ease 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-inline: 5px;
+    
+}
+
+.buttonConteiner:hover{
+    border: 0px;
+    border-radius: 1px;
+    background-color: #007bff;
+    color: white;
+}
+
+.buttonConteinerDelete{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    transition: ease 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-inline: 5px;
+    
+}
+
+.buttonConteinerDelete:hover{
+    border: 0px;
+    border-radius: 1px;
+    background-color: #fa1e1e;
+    color: white;
+}
+
+.buttonConteinerLogin{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    transition: ease 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-inline: 5px;
+    
+}
+
+.buttonConteinerLogin:hover{
+    border: 0px;
+    border-radius: 1px;
+    background-color: #30f75f;
+}

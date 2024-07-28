@@ -1,0 +1,13 @@
+version: '27.0'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-container-tarefas
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: taskmaster-tarefas
+    ports:
+      - "3306:3306"
+    volumes:
+      - /Users/lucas/Development/volumes/mysql

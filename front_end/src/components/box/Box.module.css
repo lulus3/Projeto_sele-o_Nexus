@@ -1,0 +1,23 @@
+.boxContainer{
+    min-width: 70vw;
+    max-width: 75vw;
+    min-height: 25vw;
+    max-height: 45vw;
+    background-color:rgb(213, 213, 203);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px ;
+    box-shadow: 2px 2px 5px rgb(202, 202, 202);
+}
+
+.boxContainerCredential{
+    width: 30vw;
+    height: 20vw;
+    background-color:rgb(190, 191, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px ;
+    box-shadow: 2px 2px 5px rgb(202, 202, 202);
+}

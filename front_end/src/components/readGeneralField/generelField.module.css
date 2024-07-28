@@ -1,0 +1,92 @@
+.inputContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.labelContainer{
+    flex: 1;
+    color: black;
+    font-size: 16px;
+    margin-inline: 5px;
+}
+
+.inputContent{
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+}
+
+.inputContent:hover{
+    border: 0;
+    outline: 0;
+}
+.inputContainerData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.inputContainerStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.labelContainerData{
+    flex: 1;
+    color: black;
+    font-size: 16px;
+    margin-inline: 5px;
+    margin-right: 10px;
+}
+.labelContainerStatus{
+    flex: 1;
+    color: black;
+    font-size: 16px;
+    margin-inline: 5px;
+    margin-right: 10px;
+}
+
+.inputContentTitulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputContentData{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inputContentStatus{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inputContentDescricao{
+    width: 100%;
+    max-height: 20vw;
+    display: flex;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
